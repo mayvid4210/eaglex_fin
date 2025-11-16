@@ -18,8 +18,7 @@ It is built around three core layers:
 
 + Failure Curves (Weibull-based projections)
 
-  <img width="1440" height="811" alt="Screenshot 2025-11-16 at 7 32 07 AM" src="https://github.com/user-attachments/assets/8c7f6016-e297-4588-9a5a-867d1b40e77c" />
-
+<img width="1440" height="809" alt="Screenshot 2025-11-16 at 11 55 41 AM" src="https://github.com/user-attachments/assets/804fdb89-7b01-4934-9086-e0183a500deb" />
 
 **2️) Live Physics Stream**
 
