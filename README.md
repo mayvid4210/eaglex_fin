@@ -18,6 +18,9 @@ It is built around three core layers:
 
 + Failure Curves (Weibull-based projections)
 
+  ![Uploading Screenshot 2025-11-16 at 11.55.41 AM.png…]()
+
+
 **2️) Live Physics Stream**
 
 + Continuously updated real-time physics signals:
