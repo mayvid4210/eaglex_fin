@@ -1,79 +1,93 @@
-⚡ EagleX — Real-Time Motorsport Intelligence Dashboard
+**⚡ EagleX — Real-Time Motorsport Intelligence Dashboard**
 
-EagleX is a high-frequency racing intelligence dashboard that converts raw physics data into clear, actionable insights for race engineers and simulation workflows.
+EagleX is a high-frequency telemetry system that converts raw physics data into clear, actionable racing insights.
 
-🚀 Key Features
-🧩 Mechanical Intelligence
+It is built around three core layers:
 
-Mechanical Health %
+**1️) Mechanical Intelligence (MHE)**
 
-Time to Critical
++ High-level engineering indicators:
 
-DNF Probability
++ Mechanical Health %
 
-Service Load & Repair Priority
++ Time to Critical
 
-Failure Curves (Weibull projections)
++ DNF Probability
 
-🔧 Live Physics Signals
++ Service Load & Repair Priority
 
-Tire wear rate
++ Failure Curves (Weibull-based projections)
 
-Brake rotor temp
+**2️) Live Physics Stream**
 
-Energy usage
++ Continuously updated real-time physics signals:
 
-Aero drag variation
++ Tire Wear
 
-Suspension travel & Bottom-outs
++ Brake Rotor Temp
 
-Battery SOC
++ Energy Consumption
 
-Lap delta & slip ratio
++ Aero Drag Variation
 
-G-force, shocks, wind effect
++ Suspension Travel + Bottom-Outs
 
-Cornering grip temp
++ Battery SOC
 
-Aggression factor & risk index
++ Lap-Time Delta
 
-⚠️ Event Detectors
++ Slip Ratio
 
-Thermal Surge
++ G-Force & Shock Events
 
-Brake Fade / Cavitation
++ Wind Effect
 
-Sensor Drift
++ Cornering Grip Temperature
 
-Bottom-Out
++ Aggression Factor / Risk Index
 
-Curb Abuse
+**3️) Event Detection Layer**
 
-Severe Shock
++ Raw physics → engineering alerts:
 
-Aero Stall
++ Thermal Surge
 
-Wheel Lock
++ Brake Fade / Cavitation
 
-📊 Dashboard Modules
++ Sensor Drift
 
-Interactive Track Map
++ Bottom-Out
 
-Live Leaderboard
++ Curb Abuse
+
++ Severe Shock
+
++ Aero Stall
+
++ Wheel Lock
+
+**🖥️ Dashboard Modules**
+
+Interactive Track Map (smooth car motion)
+
+Live Leaderboard (sort by health, lap delta, risk)
 
 Mechanical Pop-Out Panel
 
-AI Mechanical Insights
+AI Mechanical Insight Tab
 
-🖼️ Screenshots
+**🖼️ Screenshots**
 
 <img width="1440" height="813" alt="Screenshot 2025-11-16 at 11 47 06 AM" src="https://github.com/user-attachments/assets/03e33926-d3db-4f8f-916c-e8fe963e3bbf" />
 
+**🛠️ Tech Stack**
 
-🛠️ Tech Stack
+React · Vite · Tailwind · WebSockets · Physics-Driven Models
 
-React • Vite • Tailwind • WebSockets • Physics-driven simulation logic
+**🎯 Why EagleX?**
 
-📌 Why EagleX?
+Clear UI · Fast Updates · Accurate Mechanical Modeling · Designed for Real Engineering Workflows
 
-Fast updates, clean mechanical data modeling, and a professional motorsport-grade visualization layer.
+
+
+
